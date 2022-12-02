@@ -1,31 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <style>
-        body{padding-top: 50px;}
-    </style>
-    <title>EJS + NODE</title>
-</head>
-<body class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" > <a class="navbar-brand" href="/"> EJS </a> </nav>
-    <main>
-        
-        <div class="jumbotron" >
-            <h3>NODE E EJS</h3>
-            <p>Aprenderemos a usar Node + EJS</p>
-        </div>
-        
-       
-    </main>
-    <footer>
-        <p class="text-center text-muted"> 
-            ;3;3;3;3
-        </p>
+<%- include('head'); %> <!--Incluirndo o HEAD-->
 
-        </footer>
-</body>
+
+  <body class="container">
+    <%- include('header'); %> <!--Incluirndo o HEAD-->
+    <main>
+      <div class="jumbotron">
+        <h3>NODE E EJS</h3>
+        <p>Aprenderemos a usar Node + EJS</p>
+      </div>
+    </main>
+    <%- include('footer'); %> <!--Incluirndo o HEAD-->
+
+  </body>
 </html>
