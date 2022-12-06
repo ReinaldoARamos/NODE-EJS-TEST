@@ -12,7 +12,7 @@ app.get("/", function(req, res) { //criando a rota com o .get
         {title: "F", Message: "Fingaaaaar"},
         {title: "E", Message: "EMERALDO SPURACH"}
     ]
-    res.render("pages/index")
+    res.render("pages/index", {qualitys: items,})
 })
 
 app.get("/about", function(req, res) { //criando a rota sobre com o .get
